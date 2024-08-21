@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/ticket_background"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/abbDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrizione Abbonamento"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/abbPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prezzo: €0"
+        android:layout_marginTop="8dp" />
+
+
+
+    <Button
+        android:id="@+id/abbAcquista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acquista"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
